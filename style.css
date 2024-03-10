@@ -1,6 +1,7 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
   color: tomato;
+  background-color: lightcyan;
 }
 
 h1 {
@@ -18,4 +19,8 @@ main {
 
 a {
   color: tomato;
+}
+
+nav {
+  background-color: black;
 }
