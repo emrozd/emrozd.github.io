@@ -22,6 +22,10 @@ a {
 }
 
 nav {
+  /* this just messes the opacity of the whole thing */
+  /*
   background-color: black;
-  opacity: 0.5;
+  opacity: 0.5; */
+
+  background-color: rgb(0, 0, 0, 0.5);
 }
