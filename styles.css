@@ -1,0 +1,127 @@
+/* Reset and Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background-color: #0a192f;
+  line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background: rgba(10, 25, 47, 0.85);
+  backdrop-filter: blur(5px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #64ffda;
+}
+
+/* Hero Section (for index.html) */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #0a192f, #112240);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+  margin-top: 60px; /* account for fixed nav */
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content .tagline {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Social Icons */
+.social a {
+  color: #64ffda;
+  font-size: 1.8rem;
+  margin: 0 0.5rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social a:hover {
+  transform: translateY(-5px);
+  color: #52d0e7;
+}
+
+/* Page Sections (for about, projects, contact pages) */
+.page-section {
+  padding: 4rem 2rem;
+  background-color: #0a192f;
+  margin-top: 60px; /* account for fixed nav */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #64ffda;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+  padding: 1rem 2rem;
+  text-align: center;
+  background-color: #112240;
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 2rem;
+}
